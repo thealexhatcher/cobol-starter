@@ -1,0 +1,19 @@
+{
+	"name": "aws-iam-roles-anywhere-demo",
+	"dockerFile": "Dockerfile",
+	"settings": {
+		"terminal.integrated.defaultProfile.linux": "ash",
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+				"path": "ash",
+				"icon": "star"
+			}
+		},
+		"editor.formatOnSave": true
+	},
+	"remoteUser": "vscode",
+	"runArgs": [
+		"--privileged"
+	],
+	"extensions": []
+}
